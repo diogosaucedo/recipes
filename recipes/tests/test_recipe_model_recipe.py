@@ -21,7 +21,7 @@ class RecipeModelTest(RecipeTestBase):
             servings=5,
             servings_unit='Porções',
             preparation_steps='Recipe Preparation Steps',
-            cover='cover.jpg'
+            cover='cover.jpg,'
         )
         recipe.full_clean()
         recipe.save()
