@@ -54,6 +54,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+### create a .env
+
+Create an `.env` file following the `.env-example` file pattern
+
 ### Then simply apply the migrations
 
 ```
